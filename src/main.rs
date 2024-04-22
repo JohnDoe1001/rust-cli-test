@@ -12,8 +12,8 @@
 // LIBRARY SPACE END
 // @@@ MAIN PROGRAM SPACE START
 fn main() {
-    let i: i32 = 0;
-    for i < 10 {
+    let mut i: i32 = 0;
+    while i <= 10 {
     println!("Sanity check");
     i += 1;
     };
