@@ -10,9 +10,7 @@ arguments.
 // PSEUDOCODE SPACE END
 */
 // @@@ LIBRARY SPACE START
-#[warn(non_snake_case)]
 use std::env;
-
 
 // LIBRARY SPACE END
 // @@@ MAIN PROGRAM SPACE START
@@ -23,6 +21,9 @@ fn main() {
 // @@@ FUNCTION SPACE START
 fn argument_processing() {
     let arguments: Vec<String> = env::args().collect();
-    dbg!("Supplied arguments: {}", arguments);
+    let arg1 = &arguments[1];
+    let arg2 = &arguments[2];
+    println!("Supplied arguments: {} and {}", arg1, arg2);
+
 }
 // FUNCTION SPACE END
