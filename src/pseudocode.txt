@@ -1,0 +1,46 @@
+/* 
+// @@@ PSEUDOCODE SPACE START
+Goal: Create a text-based game like ZORK, with a 
+limited set of commands (25) and the ability to accept 
+arguments.
+
+Pseudocode:
+class Algorithims
+    /* scrapped
+    generate_landscape() {
+        random_number()
+        take random_number() then {
+            /* Implement an algorithim that generates a
+            landscape */
+            landscape.high = Mountains
+            landscape.low = Valley
+            landscape.broad = Fields
+            landscape.narrow = Canyon
+            etc...
+        }
+    }
+    */
+    class Commands
+        move {forward, backward, left, right}
+        attack() {
+        (weapon damage + effects) - enemy HP
+        }
+        interact() {
+            item characteristics | NPC dialogue
+        }
+        pick up() {
+            add to inventory
+        }
+        view() {
+            get_map()
+            // add filler words
+            return description
+        }
+
+
+
+
+
+
+// PSEUDOCODE SPACE END
+*/
